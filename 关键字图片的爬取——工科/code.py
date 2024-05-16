@@ -1,3 +1,6 @@
+# 代码来自Groundbreaker 
+# 想联系我的话花点心思不难找到我的联系方式
+# 如果今年题目变了代码用不了了，可以在Github上找到我，我会尽快更新代码
 import re
 import requests
 import os
