@@ -15,7 +15,7 @@
 首先创建虚拟环境
 
 ```powershell
-conda creat -n data_venv python=3.10
+conda create -n data_venv python=3.10
 ```
 
 然后安装依赖
