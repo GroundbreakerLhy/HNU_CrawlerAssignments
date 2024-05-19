@@ -2,7 +2,6 @@
 
 ## 文件
 
-* advertise.txt —— 结果
 * code.py —— 代码
 * requirements.txt —— 环境依赖
 

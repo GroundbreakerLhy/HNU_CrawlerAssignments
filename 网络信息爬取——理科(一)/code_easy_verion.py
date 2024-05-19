@@ -1,13 +1,16 @@
 # 代码来自Groundbreaker 
 # 想联系我的话花点心思不难找到我的联系方式
 # 如果今年题目变了代码用不了了，可以在Github上找到我，我会尽快更新代码
+
 import requests
 import re
 import csv
 import matplotlib.pyplot as plt
 import csv
+import pandas as pd
 
 # 用黑体显示中文
+# mac用户这里自己注意, 你们的电脑可能没有这个字体, 可以换成你有的中文字体
 plt.rcParams['font.sans-serif'] = ['SimHei']  
 
 headers = {
@@ -43,10 +46,10 @@ for i in range(0, 9):
 
 
 
-with open("content.csv", "w") as f:
+with open("content.csv", "w", encoding='utf-8') as f:
     w = csv.writer(f)
     w.writerows(message)
-    import pandas as pd
+
 
 df = pd.read_csv("content.csv", names=["company", "capital"])
 

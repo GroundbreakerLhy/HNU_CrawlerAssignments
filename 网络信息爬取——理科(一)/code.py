@@ -8,9 +8,12 @@ import time
 import csv
 import matplotlib.pyplot as plt
 import csv
+import pandas as pd
+import os 
 
 # 用黑体显示中文
-plt.rcParams['font.sans-serif'] = ['SimHei']  
+# mac用户这里自己注意, 你们的电脑可能没有这个字体, 可以换成你有的中文字体
+plt.rcParams['font.sans-serif'] = ['SimHei']
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
@@ -38,6 +41,8 @@ def fetchUrlWithRetry(url, maxRetries=3, retryDelay=5):# 判断有无被拦截
 startI = 0
 startJ = 0
 filename = "content.csv"
+path = os.getcwd()
+filename = path + "/" + filename
 
 try:
     with open(filename, 'r', newline='', encoding='utf-8') as file:
@@ -71,12 +76,11 @@ for i in range(startI, 9):
 
 
 
-with open("content.csv", "w") as f:
+with open("content.csv", "w", encoding='utf-8') as f:
     w = csv.writer(f)
     w.writerows(message)
-    import pandas as pd
 
-df = pd.read_csv("content.csv", names=["company", "capital"])
+df = pd.read_csv(path + "/content.csv", names=["company", "capital"])
 
 # 定义函数将字符串转换为数字
 def strToNum(s):

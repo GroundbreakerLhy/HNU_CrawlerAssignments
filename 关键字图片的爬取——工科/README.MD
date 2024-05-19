@@ -2,7 +2,6 @@
 
 ## 文件
 
-* img —— 爬取的图片文件夹
 * code.ipynb —— 代码
 * code.py —— 代码
 * requirements.txt —— 环境依赖
