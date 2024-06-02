@@ -1,0 +1,7 @@
+beautifulsoup4
+jieba
+wordcloud
+matplotlib
+snownlp
+networkx
+pylab

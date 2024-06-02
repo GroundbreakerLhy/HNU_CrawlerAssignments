@@ -1,12 +1,13 @@
-# 通讯录管理系统
+# 大作业文本分析-红楼梦分析为例
+
+## 注意注意注意
+
+这个爬小说的网页随时会挂，要是挂了注意要换
 
 ## 文件
 
-* contact.ipynb —— 代码
+* code.py —— 代码
 * requirements.txt —— 环境依赖
-* stu.csv —— 数据（头歌扒下来的，万一今年变了要注意）
-
-这个题很奇怪，会有要用户输入的部分，不知道助教是怎么评阅的，反正放注释里了
 
 ## 如何使用
 
@@ -15,13 +16,13 @@
 首先创建虚拟环境
 
 ```powershell
-conda create -n data_venv python=3.10
+conda create -n crawler_venv python=3.10
 ```
 
 然后安装依赖
 
 ```powershell
-conda activate data_venv
+conda activate crawler_venv
 pip install -r requirements.txt
 ```
 
