@@ -3,6 +3,7 @@
 ## 文件
 
 * code.py —— 代码
+* data_analysis.ipynb —— 数据分析代码，这道题有的老师有数据分析的要求
 * requirements.txt —— 环境依赖
 
 ## 如何使用
