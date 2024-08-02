@@ -18,9 +18,9 @@ import math
 import datetime
 
 APP_TITLE = u'音乐播放器'
-MAX_LYRIC_ROW = 15
+MAX_LYRIC_ROW = 18
 LYRIC_ROW_REG = '\[[0-9]{2}:[0-9]{2}.[0-9]{2,}\]'
-MAX_MUSIC_NAME_LEN = 18  # 歌名展示的时候最长字符限制
+MAX_MUSIC_NAME_LEN = 15  # 歌名展示的时候最长字符限制
 
 
 class mainFrame(wx.Frame):
