@@ -20,7 +20,10 @@
 ## 下载链接
 
 方便看不了GitHub的同学下载
-https://wwds.lanzouq.com/iAMdg278eo8j（这个的更新速度肯定没有GitHub快，有冲突请以GitHub版本为准）
+
+https://wwds.lanzouq.com/iAMdg278eo8j
+
+（这个的更新速度肯定没有GitHub快，有冲突请以GitHub版本为准）
 
 ## 写在最后
 
